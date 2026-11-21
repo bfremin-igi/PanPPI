@@ -1,0 +1,113 @@
+### e3a_nounc_650M_800_s42_r2
+epoch 1/14 train 1.9794 updates 4388 (103.0 min) | SEL[logoppi_g+m] 0.8956 | global AUPR 0.9069 maxsim(raw) 0.7770 | best ep 1 no-improve 0 | yeast g 0.7037 m 0.6272 | ecoli g
+epoch 2/14 train 1.0749 updates 4388 (210.1 min) | SEL[logoppi_g+m] 0.9332 | global AUPR 0.9436 maxsim(raw) 0.8312 | best ep 2 no-improve 0 | yeast g 0.7467 m 0.6420 | ecoli g
+epoch 3/14 train 0.7718 updates 4388 (316.8 min) | SEL[logoppi_g+m] 0.9486 | global AUPR 0.9531 maxsim(raw) 0.8753 | best ep 3 no-improve 0 | yeast g 0.7333 m 0.6912 | ecoli g
+epoch 4/14 train 0.6254 updates 4388 (423.3 min) | SEL[logoppi_g+m] 0.9480 | global AUPR 0.9572 maxsim(raw) 0.8677 | best ep 3 no-improve 1 | yeast g 0.7436 m 0.6935 | ecoli g
+epoch 5/14 train 0.5010 updates 4388 (529.9 min) | SEL[logoppi_g+m] 0.9441 | global AUPR 0.9584 maxsim(raw) 0.7774 | best ep 3 no-improve 2 | yeast g 0.7587 m 0.6554 | ecoli g
+epoch 6/14 train 0.4181 updates 4388 (637.2 min) | SEL[logoppi_g+m] 0.9527 | global AUPR 0.9636 maxsim(raw) 0.8211 | best ep 6 no-improve 0 | yeast g 0.7591 m 0.6897 | ecoli g
+epoch 7/14 train 0.3463 updates 4388 (744.0 min) | SEL[logoppi_g+m] 0.9485 | global AUPR 0.9621 maxsim(raw) 0.7593 | best ep 6 no-improve 1 | yeast g 0.7354 m 0.5891 | ecoli g
+epoch 8/14 train 0.2922 updates 4388 (857.2 min) | SEL[logoppi_g+m] 0.9457 | global AUPR 0.9627 maxsim(raw) 0.7320 | best ep 6 no-improve 2 | yeast g 0.7453 m 0.5694 | ecoli g
+epoch 9/14 train 0.2543 updates 4388 (101.4 min) | SEL[logoppi_g+m] 0.9469 | global AUPR 0.9636 maxsim(raw) 0.7263 | best ep 6 no-improve 3 | yeast g 0.7539 m 0.5386 | ecoli g
+epochs: 14
+patience: 3
+select_on: blend
+### e3a_nounc_650M_800_s7
+epoch 1/14 train 1.9749 updates 4388 (102.4 min) | SEL[logoppi_g+m] 0.9059 | global AUPR 0.9139 maxsim(raw) 0.8271 | best ep 1 no-improve 0 | yeast g 0.7077 m 0.6657 | ecoli g
+epoch 2/14 train 1.0619 updates 4388 (209.8 min) | SEL[logoppi_g+m] 0.9344 | global AUPR 0.9399 maxsim(raw) 0.8639 | best ep 2 no-improve 0 | yeast g 0.7487 m 0.7220 | ecoli g
+epoch 3/14 train 0.7938 updates 4388 (316.6 min) | SEL[logoppi_g+m] 0.9437 | global AUPR 0.9523 maxsim(raw) 0.8713 | best ep 3 no-improve 0 | yeast g 0.7348 m 0.7003 | ecoli g
+epoch 4/14 train 0.6216 updates 4388 (423.0 min) | SEL[logoppi_g+m] 0.9502 | global AUPR 0.9558 maxsim(raw) 0.8992 | best ep 4 no-improve 0 | yeast g 0.7506 m 0.7162 | ecoli g
+epoch 5/14 train 0.5029 updates 4388 (529.3 min) | SEL[logoppi_g+m] 0.9546 | global AUPR 0.9594 maxsim(raw) 0.8845 | best ep 5 no-improve 0 | yeast g 0.7463 m 0.7079 | ecoli g
+epoch 6/14 train 0.4230 updates 4388 (637.4 min) | SEL[logoppi_g+m] 0.9542 | global AUPR 0.9606 maxsim(raw) 0.8945 | best ep 5 no-improve 1 | yeast g 0.7546 m 0.7166 | ecoli g
+epoch 7/14 train 0.3541 updates 4388 (743.4 min) | SEL[logoppi_g+m] 0.9501 | global AUPR 0.9623 maxsim(raw) 0.8556 | best ep 5 no-improve 2 | yeast g 0.7313 m 0.6630 | ecoli g
+epoch 8/14 train 0.2970 updates 4388 (849.9 min) | SEL[logoppi_g+m] 0.9528 | global AUPR 0.9629 maxsim(raw) 0.8341 | best ep 5 no-improve 3 | yeast g 0.7443 m 0.6700 | ecoli g
+epochs: 14
+patience: 3
+select_on: blend
+### e3a_nounc_650M_800_s141_clean2
+epoch 1/14 train 1.6153 updates 4388 (109.7 min) | SEL[logoppi_g+m] 0.8934 | global AUPR 0.9054 maxsim(raw) 0.7769 | best ep 1 no-improve 0 | yeast g 0.6766 m 0.5979 | ecoli g
+epoch 2/14 train 0.8139 updates 4388 (221.3 min) | SEL[logoppi_g+m] 0.9254 | global AUPR 0.9370 maxsim(raw) 0.7865 | best ep 2 no-improve 0 | yeast g 0.7366 m 0.6149 | ecoli g
+epoch 3/14 train 0.5986 updates 4388 (331.8 min) | SEL[logoppi_g+m] 0.9473 | global AUPR 0.9532 maxsim(raw) 0.8906 | best ep 3 no-improve 0 | yeast g 0.7520 m 0.7224 | ecoli g
+epoch 4/14 train 0.4739 updates 4388 (441.1 min) | SEL[logoppi_g+m] 0.9485 | global AUPR 0.9580 maxsim(raw) 0.8638 | best ep 4 no-improve 0 | yeast g 0.7625 m 0.7176 | ecoli g
+epoch 5/14 train 0.3716 updates 4388 (549.7 min) | SEL[logoppi_g+m] 0.9517 | global AUPR 0.9604 maxsim(raw) 0.8759 | best ep 5 no-improve 0 | yeast g 0.7529 m 0.7197 | ecoli g
+epoch 6/14 train 0.3086 updates 4388 (659.0 min) | SEL[logoppi_g+m] 0.9516 | global AUPR 0.9608 maxsim(raw) 0.8419 | best ep 5 no-improve 1 | yeast g 0.7618 m 0.6878 | ecoli g
+epoch 7/14 train 0.2545 updates 4388 (104.6 min) | SEL[logoppi_g+m] 0.9488 | global AUPR 0.9615 maxsim(raw) 0.8471 | best ep 5 no-improve 2 | yeast g 0.7550 m 0.6959 | ecoli g
+epoch 8/14 train 0.2147 updates 4388 (212.6 min) | SEL[logoppi_g+m] 0.9525 | global AUPR 0.9636 maxsim(raw) 0.8535 | best ep 8 no-improve 0 | yeast g 0.7449 m 0.6589 | ecoli g
+epoch 9/14 train 0.1841 updates 4388 (320.5 min) | SEL[logoppi_g+m] 0.9461 | global AUPR 0.9618 maxsim(raw) 0.7993 | best ep 8 no-improve 1 | yeast g 0.7279 m 0.6028 | ecoli g
+epoch 10/14 train 0.1580 updates 4388 (429.6 min) | SEL[logoppi_g+m] 0.9477 | global AUPR 0.9642 maxsim(raw) 0.7825 | best ep 8 no-improve 2 | yeast g 0.7419 m 0.5959 | ecoli 
+epoch 11/14 train 0.1314 updates 4388 (538.4 min) | SEL[logoppi_g+m] 0.9447 | global AUPR 0.9625 maxsim(raw) 0.7570 | best ep 8 no-improve 3 | yeast g 0.7441 m 0.5212 | ecoli 
+epochs: 14
+patience: 3
+select_on: blend
+### ctrl_lg_650M_800_s42
+epoch 1/14 train 0.5508 updates 4388 (103.0 min) | SEL[logoppi_g+m] 0.8607 | global AUPR 0.8861 maxsim(raw) 0.4033 | best ep 1 no-improve 0 | yeast g 0.6676 m 0.3769 | ecoli g
+epoch 2/14 train 0.3094 updates 4388 (210.2 min) | SEL[logoppi_g+m] 0.9006 | global AUPR 0.9250 maxsim(raw) 0.6375 | best ep 2 no-improve 0 | yeast g 0.7086 m 0.5788 | ecoli g
+epoch 3/14 train 0.2175 updates 4388 (316.6 min) | SEL[logoppi_g+m] 0.9257 | global AUPR 0.9376 maxsim(raw) 0.8258 | best ep 3 no-improve 0 | yeast g 0.6953 m 0.6558 | ecoli g
+epoch 4/14 train 0.1654 updates 4388 (423.3 min) | SEL[logoppi_g+m] 0.9287 | global AUPR 0.9446 maxsim(raw) 0.7844 | best ep 4 no-improve 0 | yeast g 0.7066 m 0.6516 | ecoli g
+epoch 5/14 train 0.1268 updates 4388 (529.9 min) | SEL[logoppi_g+m] 0.9343 | global AUPR 0.9498 maxsim(raw) 0.7999 | best ep 5 no-improve 0 | yeast g 0.7295 m 0.6450 | ecoli g
+epoch 6/14 train 0.0946 updates 4388 (637.0 min) | SEL[logoppi_g+m] 0.9434 | global AUPR 0.9519 maxsim(raw) 0.8176 | best ep 6 no-improve 0 | yeast g 0.7128 m 0.6462 | ecoli g
+epoch 7/14 train 0.0665 updates 4388 (745.5 min) | SEL[logoppi_g+m] 0.9405 | global AUPR 0.9535 maxsim(raw) 0.7777 | best ep 6 no-improve 1 | yeast g 0.6885 m 0.6141 | ecoli g
+epoch 8/14 train 0.0478 updates 4388 (852.1 min) | SEL[logoppi_g+m] 0.9455 | global AUPR 0.9555 maxsim(raw) 0.8020 | best ep 8 no-improve 0 | yeast g 0.6964 m 0.6235 | ecoli g
+epoch 9/14 train 0.0310 updates 4388 (99.9 min) | SEL[logoppi_g+m] 0.9415 | global AUPR 0.9508 maxsim(raw) 0.7798 | best ep 8 no-improve 1 | yeast g 0.6823 m 0.6203 | ecoli g 
+epoch 10/14 train 0.0202 updates 4388 (203.1 min) | SEL[logoppi_g+m] 0.9416 | global AUPR 0.9523 maxsim(raw) 0.8016 | best ep 8 no-improve 2 | yeast g 0.6801 m 0.6249 | ecoli 
+epoch 11/14 train 0.0130 updates 4388 (305.8 min) | SEL[logoppi_g+m] 0.9409 | global AUPR 0.9537 maxsim(raw) 0.7626 | best ep 8 no-improve 3 | yeast g 0.6760 m 0.5938 | ecoli 
+epochs: 14
+patience: 3
+select_on: blend
+### ctrl_lg_650M_800_s7
+epoch 1/14 train 0.5613 updates 4388 (99.1 min) | SEL[logoppi_g+m] 0.8782 | global AUPR 0.8956 maxsim(raw) 0.3027 | best ep 1 no-improve 0 | yeast g 0.6467 m 0.3308 | ecoli g 
+epoch 2/14 train 0.3021 updates 4388 (202.8 min) | SEL[logoppi_g+m] 0.9023 | global AUPR 0.9246 maxsim(raw) 0.5938 | best ep 2 no-improve 0 | yeast g 0.7164 m 0.5336 | ecoli g
+epoch 3/14 train 0.2212 updates 4388 (306.3 min) | SEL[logoppi_g+m] 0.9291 | global AUPR 0.9423 maxsim(raw) 0.6409 | best ep 3 no-improve 0 | yeast g 0.7072 m 0.5529 | ecoli g
+epoch 4/14 train 0.1649 updates 4388 (412.4 min) | SEL[logoppi_g+m] 0.9356 | global AUPR 0.9483 maxsim(raw) 0.6328 | best ep 4 no-improve 0 | yeast g 0.7181 m 0.5571 | ecoli g
+epoch 5/14 train 0.1223 updates 4388 (518.0 min) | SEL[logoppi_g+m] 0.9406 | global AUPR 0.9545 maxsim(raw) 0.6852 | best ep 5 no-improve 0 | yeast g 0.7168 m 0.5464 | ecoli g
+epoch 6/14 train 0.0859 updates 4388 (622.5 min) | SEL[logoppi_g+m] 0.9394 | global AUPR 0.9531 maxsim(raw) 0.7097 | best ep 5 no-improve 1 | yeast g 0.7044 m 0.6079 | ecoli g
+epoch 7/14 train 0.0641 updates 4388 (726.5 min) | SEL[logoppi_g+m] 0.9430 | global AUPR 0.9525 maxsim(raw) 0.7250 | best ep 7 no-improve 0 | yeast g 0.7082 m 0.5864 | ecoli g
+epoch 8/14 train 0.0438 updates 4388 (850.0 min) | SEL[logoppi_g+m] 0.9432 | global AUPR 0.9552 maxsim(raw) 0.7104 | best ep 8 no-improve 0 | yeast g 0.6900 m 0.5533 | ecoli g
+epoch 9/14 train 0.0317 updates 4388 (954.0 min) | SEL[logoppi_g+m] 0.9413 | global AUPR 0.9543 maxsim(raw) 0.6566 | best ep 8 no-improve 1 | yeast g 0.7010 m 0.5572 | ecoli g
+epoch 10/14 train 0.0178 updates 4388 (1058.4 min) | SEL[logoppi_g+m] 0.9413 | global AUPR 0.9552 maxsim(raw) 0.6822 | best ep 8 no-improve 2 | yeast g 0.7054 m 0.5234 | ecoli
+epoch 11/14 train 0.0098 updates 4388 (1162.3 min) | SEL[logoppi_g+m] 0.9393 | global AUPR 0.9537 maxsim(raw) 0.6808 | best ep 8 no-improve 3 | yeast g 0.6839 m 0.5413 | ecoli
+epochs: 14
+patience: 3
+select_on: blend
+### ctrl_lg_650M_800_s141
+epoch 1/14 train 0.5651 updates 4388 (101.9 min) | SEL[logoppi_g+m] 0.8702 | global AUPR 0.8867 maxsim(raw) 0.5866 | best ep 1 no-improve 0 | yeast g 0.6093 m 0.4516 | ecoli g
+epoch 2/14 train 0.3099 updates 4388 (206.8 min) | SEL[logoppi_g+m] 0.9062 | global AUPR 0.9270 maxsim(raw) 0.7050 | best ep 2 no-improve 0 | yeast g 0.6996 m 0.5774 | ecoli g
+epoch 3/14 train 0.2211 updates 4388 (311.6 min) | SEL[logoppi_g+m] 0.9188 | global AUPR 0.9419 maxsim(raw) 0.7773 | best ep 3 no-improve 0 | yeast g 0.7163 m 0.6334 | ecoli g
+epoch 4/14 train 0.1696 updates 4388 (416.0 min) | SEL[logoppi_g+m] 0.9328 | global AUPR 0.9464 maxsim(raw) 0.8162 | best ep 4 no-improve 0 | yeast g 0.7153 m 0.6550 | ecoli g
+epoch 5/14 train 0.1306 updates 4388 (526.8 min) | SEL[logoppi_g+m] 0.9410 | global AUPR 0.9518 maxsim(raw) 0.8177 | best ep 5 no-improve 0 | yeast g 0.7059 m 0.6388 | ecoli g
+epoch 6/14 train 0.0974 updates 4388 (635.3 min) | SEL[logoppi_g+m] 0.9333 | global AUPR 0.9504 maxsim(raw) 0.7814 | best ep 5 no-improve 1 | yeast g 0.6988 m 0.6022 | ecoli g
+epoch 7/14 train 0.0682 updates 4388 (746.2 min) | SEL[logoppi_g+m] 0.9395 | global AUPR 0.9516 maxsim(raw) 0.7766 | best ep 5 no-improve 2 | yeast g 0.7099 m 0.6485 | ecoli g
+epoch 8/14 train 0.0506 updates 4388 (854.0 min) | SEL[logoppi_g+m] 0.9403 | global AUPR 0.9529 maxsim(raw) 0.8204 | best ep 5 no-improve 3 | yeast g 0.6930 m 0.6537 | ecoli g
+epochs: 14
+patience: 3
+select_on: blend
+### e3a_bernett_650M_800_s42_h1
+epoch 1/14 train 3.5876 updates 1699 (100.9 min) | SEL[logoppi_g+m] 0.6775 | global AUPR 0.6717 maxsim(raw) 0.6635 | best ep 1 no-improve 0 | bernett g 0.7188 m 0.6948
+epoch 2/14 train 3.1924 updates 1699 (202.9 min) | SEL[logoppi_g+m] 0.6693 | global AUPR 0.6706 maxsim(raw) 0.6544 | best ep 1 no-improve 1 | bernett g 0.7224 m 0.6885
+epoch 3/14 train 2.9418 updates 1699 (304.8 min) | SEL[logoppi_g+m] 0.6878 | global AUPR 0.6903 maxsim(raw) 0.6629 | best ep 3 no-improve 0 | bernett g 0.7158 m 0.6875
+epoch 4/14 train 2.7428 updates 1699 (406.0 min) | SEL[logoppi_g+m] 0.6840 | global AUPR 0.6806 maxsim(raw) 0.6695 | best ep 3 no-improve 1 | bernett g 0.7187 m 0.6856
+epoch 5/14 train 2.5857 updates 1699 (507.2 min) | SEL[logoppi_g+m] 0.6782 | global AUPR 0.6686 maxsim(raw) 0.6780 | best ep 3 no-improve 2 | bernett g 0.7132 m 0.7035
+epoch 6/14 train 2.4365 updates 1699 (608.6 min) | SEL[logoppi_g+m] 0.6812 | global AUPR 0.6669 maxsim(raw) 0.6843 | best ep 3 no-improve 3 | bernett g 0.7099 m 0.7081
+epochs: 14
+patience: 3
+select_on: blend
+### e3a_bernett_650M_800_s7_h1
+epoch 1/14 train 3.5853 updates 1699 (99.7 min) | SEL[logoppi_g+m] 0.6930 | global AUPR 0.6739 maxsim(raw) 0.6883 | best ep 1 no-improve 0 | bernett g 0.7165 m 0.6818
+epoch 2/14 train 3.2209 updates 1699 (200.8 min) | SEL[logoppi_g+m] 0.6938 | global AUPR 0.6854 maxsim(raw) 0.6795 | best ep 2 no-improve 0 | bernett g 0.7129 m 0.6830
+epoch 3/14 train 2.9825 updates 1699 (301.6 min) | SEL[logoppi_g+m] 0.6921 | global AUPR 0.6864 maxsim(raw) 0.6705 | best ep 2 no-improve 1 | bernett g 0.7226 m 0.6961
+epoch 4/14 train 2.7892 updates 1699 (404.0 min) | SEL[logoppi_g+m] 0.6863 | global AUPR 0.6793 maxsim(raw) 0.6693 | best ep 2 no-improve 2 | bernett g 0.7227 m 0.6983
+epoch 5/14 train 2.6360 updates 1699 (508.8 min) | SEL[logoppi_g+m] 0.6819 | global AUPR 0.6727 maxsim(raw) 0.6787 | best ep 2 no-improve 3 | bernett g 0.7120 m 0.7109
+epochs: 14
+patience: 3
+select_on: blend
+### e3a_bernett_650M_800_s141_h1
+epoch 1/14 train 3.5869 updates 1699 (103.8 min) | SEL[logoppi_g+m] 0.6695 | global AUPR 0.6786 maxsim(raw) 0.6236 | best ep 1 no-improve 0 | bernett g 0.7157 m 0.6769
+epoch 2/14 train 3.2100 updates 1699 (101.8 min) | SEL[logoppi_g+m] 0.6673 | global AUPR 0.6712 maxsim(raw) 0.6482 | best ep 1 no-improve 1 | bernett g 0.7181 m 0.6629
+epoch 3/14 train 2.9798 updates 1699 (203.4 min) | SEL[logoppi_g+m] 0.6717 | global AUPR 0.6802 maxsim(raw) 0.6395 | best ep 3 no-improve 0 | bernett g 0.7202 m 0.6609
+epoch 4/14 train 2.7826 updates 1699 (305.1 min) | SEL[logoppi_g+m] 0.6624 | global AUPR 0.6724 maxsim(raw) 0.6340 | best ep 3 no-improve 1 | bernett g 0.7111 m 0.6615
+epoch 5/14 train 2.6223 updates 1699 (406.1 min) | SEL[logoppi_g+m] 0.6747 | global AUPR 0.6784 maxsim(raw) 0.6509 | best ep 5 no-improve 0 | bernett g 0.7130 m 0.6758
+epoch 6/14 train 2.4812 updates 1699 (507.4 min) | SEL[logoppi_g+m] 0.6593 | global AUPR 0.6579 maxsim(raw) 0.6501 | best ep 5 no-improve 1 | bernett g 0.7030 m 0.6783
+epoch 7/14 train 2.3359 updates 1699 (608.6 min) | SEL[logoppi_g+m] 0.6700 | global AUPR 0.6648 maxsim(raw) 0.6602 | best ep 5 no-improve 2 | bernett g 0.7014 m 0.6821
+epoch 8/14 train 2.1904 updates 1699 (709.8 min) | SEL[logoppi_g+m] 0.6678 | global AUPR 0.6578 maxsim(raw) 0.6642 | best ep 5 no-improve 3 | bernett g 0.7032 m 0.6978
+epochs: 14
+patience: 3
+select_on: blend

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use PanPPI, please cite the manuscript (and the archived data and weights)."
+title: "PanPPI: ranking-trained protein embeddings for proteome-scale interaction screening"
+authors:
+  - family-names: Fremin
+    given-names: Brayon J.
+    affiliation: "Innovative Genomics Institute, University of California, Berkeley"
+  - family-names: Ronda
+    given-names: Carlotta
+    affiliation: "Innovative Genomics Institute, University of California, Berkeley"
+license: MIT

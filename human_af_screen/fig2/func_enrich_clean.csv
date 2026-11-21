@@ -1,0 +1,113 @@
+keyword,n_clean,afm_clean,pan_clean,lg_clean
+Nucleus,16267,0.0183,0.1646,0.0812
+Cell membrane,6925,0.0308,0.1041,0.0444
+Transcription,6619,0.0124,0.1248,0.0532
+Ribonucleoprotein,4714,0.0068,0.3154,0.2793
+Transcription regulation,6351,0.0113,0.1202,0.0523
+Host-virus interaction,5724,0.0171,0.1596,0.0708
+Ribosomal protein,3839,0.0068,0.3279,0.3266
+Hydrolase,4725,0.0305,0.1489,0.0527
+Transport,4644,0.0329,0.2138,0.0476
+Mitochondrion,4352,0.0248,0.2734,0.1446
+DNA-binding,4722,0.0102,0.135,0.054
+Transferase,4425,0.0337,0.1096,0.0352
+Cytoskeleton,4061,0.0271,0.1229,0.0372
+RNA-binding,3728,0.0075,0.2007,0.1322
+Intellectual disability,3404,0.0259,0.148,0.0478
+Cell cycle,3214,0.0205,0.1504,0.0467
+Cell projection,3485,0.0313,0.0997,0.0287
+Receptor,3253,0.0332,0.0999,0.0608
+Endoplasmic reticulum,3124,0.0291,0.1752,0.0914
+Chromosome,3399,0.0159,0.1444,0.0369
+Secreted,3448,0.0394,0.0951,0.0692
+Activator,3070,0.0078,0.114,0.0605
+Apoptosis,2493,0.0201,0.1119,0.0548
+Ubl conjugation pathway,2621,0.0389,0.1396,0.0412
+Transit peptide,2066,0.0227,0.3669,0.2254
+Repressor,2421,0.012,0.0819,0.0471
+DNA damage,2440,0.0152,0.1604,0.0421
+Immunity,2283,0.0263,0.1099,0.0406
+Kinase,2088,0.0326,0.064,0.0295
+mRNA processing,2114,0.0076,0.1495,0.0459
+Endosome,2261,0.0323,0.1216,0.0314
+Developmental protein,2244,0.0339,0.0804,0.0315
+Magnesium,1945,0.0365,0.11,0.0296
+Cell division,1872,0.0283,0.1259,0.0347
+DNA repair,2046,0.0161,0.1688,0.0428
+mRNA splicing,1938,0.0072,0.16,0.049
+Protein transport,1848,0.0444,0.2311,0.0554
+Golgi apparatus,2019,0.0431,0.153,0.0335
+Chromatin regulator,1838,0.0103,0.1016,0.0348
+Differentiation,1721,0.0343,0.0992,0.0418
+GTP-binding,1376,0.0371,0.2093,0.1274
+Spliceosome,1597,0.0063,0.181,0.0557
+Calcium,1928,0.0182,0.0553,0.0093
+WD repeat,1460,0.0158,0.1395,0.0498
+Neurodegeneration,1637,0.0226,0.1802,0.0591
+Chromosomal rearrangement,1599,0.0181,0.0978,0.0619
+Primary mitochondrial disease,1260,0.0175,0.4413,0.1886
+Innate immunity,1408,0.0277,0.1065,0.0417
+Mitosis,1381,0.0311,0.1294,0.0384
+Proto-oncogene,1427,0.0168,0.1032,0.0446
+Mitochondrion inner membrane,1259,0.0175,0.3201,0.1064
+Synapse,1342,0.0261,0.1257,0.0387
+Cell junction,1547,0.0162,0.0573,0.0343
+Serine/threonine-protein kinase,1028,0.0165,0.0717,0.0191
+Chaperone,1178,0.0161,0.0877,0.0337
+Biological rhythms,1223,0.0253,0.0989,0.067
+Cell adhesion,1479,0.0176,0.0412,0.0365
+Deafness,1089,0.0275,0.1928,0.0698
+Protein biosynthesis,988,0.0142,0.4099,0.2126
+Lysosome,1177,0.0306,0.1436,0.028
+Ribosome biogenesis,1017,0.0059,0.1947,0.2665
+Dwarfism,1063,0.0254,0.2079,0.0828
+Epilepsy,1091,0.0367,0.1793,0.0284
+Diamond-Blackfan anemia,666,0.003,0.3128,0.3549
+Neurogenesis,1032,0.0349,0.0833,0.0517
+Translation regulation,905,0.0044,0.1783,0.0947
+Transducer,727,0.022,0.1596,0.055
+rRNA processing,978,0.0112,0.1251,0.1166
+Immunoglobulin domain,1169,0.0368,0.0342,0.0416
+Centromere,879,0.033,0.1513,0.0159
+Protease,891,0.0483,0.1455,0.0426
+Ion transport,928,0.0291,0.2011,0.0172
+Wnt signaling pathway,841,0.0297,0.1205,0.0392
+rRNA-binding,610,0.0,0.3153,0.3727
+Inflammatory response,758,0.0132,0.1847,0.1451
+Helicase,879,0.0034,0.2332,0.0478
+Oxidoreductase,802,0.0499,0.2178,0.0374
+Cleavage on pair of basic residues,967,0.0196,0.0776,0.0207
+SH3 domain,836,0.0072,0.1184,0.0419
+Adaptive immunity,791,0.0228,0.0973,0.0645
+Tumor suppressor,898,0.0189,0.0824,0.0445
+Iron,774,0.0233,0.1705,0.0413
+Lipid metabolism,921,0.0499,0.1918,0.0217
+Electron transport,708,0.0141,0.3037,0.0918
+G protein-coupled receptor,542,0.0221,0.1697,0.048
+Tyrosine-protein kinase,908,0.0518,0.0496,0.0474
+Cytokine,618,0.0583,0.2379,0.233
+Respiratory chain,649,0.0077,0.3205,0.0986
+Myristate,575,0.0209,0.1548,0.073
+Microtubule,729,0.0151,0.1358,0.0151
+Nucleosome core,701,0.01,0.0485,0.0371
+SH2 domain,670,0.0015,0.1134,0.0955
+Autophagy,711,0.0323,0.1153,0.038
+Initiation factor,642,0.0047,0.3224,0.1475
+Mitochondrion outer membrane,756,0.0344,0.2262,0.0569
+Host cell receptor for virus entry,733,0.0286,0.0887,0.0682
+NAD,613,0.0375,0.2365,0.0457
+mRNA transport,585,0.0205,0.1368,0.0256
+Kinetochore,609,0.0164,0.1773,0.0115
+DNA recombination,594,0.0118,0.1785,0.0415
+Alternative initiation,603,0.0232,0.131,0.0415
+Actin-binding,631,0.0539,0.1173,0.0158
+Stress response,609,0.0082,0.0394,0.0328
+DNA replication,616,0.0211,0.3804,0.0357
+Cilium,538,0.0316,0.1214,0.0149
+Manganese,441,0.0522,0.1156,0.0181
+TPR repeat,611,0.018,0.0791,0.0278
+Growth regulation,494,0.0101,0.1667,0.0641
+Neuropathy,566,0.0212,0.1148,0.0265
+Proteasome,303,0.0198,0.5633,0.1089
+Angiogenesis,611,0.0507,0.0736,0.0327
+Translocase,462,0.0216,0.3571,0.0779

@@ -1,0 +1,4 @@
+panel,set,n_pairs,n_pos,tool,aupr_tool,aupr_panppi,diff,boot_mean_diff,lo,hi,frac_positive
+c,bernett,51978,25986,LoGoPPI-Bernett,0.6843,0.708,0.0237,0.0237,0.0177,0.0298,1.0
+c,bernett,51978,25986,PLM-interact,0.6877,0.708,0.0204,0.0203,0.0132,0.0272,1.0
+c,bernett,51978,25986,TUnA,0.6908,0.708,0.0172,0.017,0.009,0.0251,1.0

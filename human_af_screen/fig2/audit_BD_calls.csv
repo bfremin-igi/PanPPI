@@ -1,0 +1,3 @@
+tool,true_calls,false_calls,n_neg,recall,recall_weighted,recall_without_top10_communities,recall_in_top10_communities,distinct_proteins_in_true_calls,share_true_calls_in_top10,recall_pairs_sharing_no_keyword,recall_pairs_sharing_keyword
+pan,16287.3333,2138.3333,42761.0,0.37,0.1817,0.2493,0.3921,4233,0.8959,0.1865,0.4067
+lg,7806.3333,2138.3333,42761.0,0.1773,0.0864,0.076,0.1959,2010,0.9338,0.0971,0.1934

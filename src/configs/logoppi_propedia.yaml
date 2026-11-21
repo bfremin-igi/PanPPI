@@ -1,0 +1,86 @@
+# LoGoPPI fine-tuned on our Propedia receptor_f0 split, for a like-for-like comparison with our own
+# Propedia fine-tunes (jobs 65757 at 6 epochs and 70530/70531 at 10).
+#
+# base_model_name must be a PLAIN ESM-2 encoder, not their released checkpoint. logobert/esm2_global.py:58
+# calls AutoModel.from_pretrained(base_model_name, add_pooling_layer=False) to build the ENCODER inside
+# ESM2ForPPI, and their checkpoint's config.json carries an auto_map to esm2_global.ESM2ForPPI, so pointing
+# base_model_name at it would nest their whole model inside itself as its own encoder (job 72727 failed there,
+# on the trust_remote_code prompt that nesting triggers). We use our local copy of facebook/esm2_t33_650M_UR50D
+# instead, so no custom code is executed and trust_remote_code stays false.
+#
+# DEVIATION TO CARRY INTO ANY WRITE-UP: this therefore trains the LoGoPPI architecture on Propedia starting
+# from base ESM-2, NOT from their human-PPI model. Their training script's --resume expects a full training
+# payload (optimizer and RNG state), so it cannot load a bare HF checkpoint as an initialisation. Against our
+# own Propedia numbers that cuts both ways: LoGoPPI here gets no human-PPI pretraining, which our variants had,
+# but it does get a 650M encoder where ours have frozen 150M embeddings. The companion data point is their
+# released human model scored zero-shot on the same 63,555 pairs (job 72719: AUROC 0.5417, AUPR 0.1661).
+#
+# max_epochs 10 matches our protocol rather than their published 20, so the comparison is epoch-matched.
+# learning_rate, weight_decay, warmup_ratio, pos_weight, projection/classifier dims and global_symmetry are
+# left exactly as their configs/training/cross_species.yaml, so nothing but the data and epoch count differs.
+#
+# Effective batch is 8 x 12 = 96, matching their 16 x 2 x 3 GPUs = 96 on our single GPU. batch_size_per_device
+# is 8 rather than 16 because a 650M fine-tune with AdamW in fp32 states needs roughly 10 GB before
+# activations, and this runs on the gpu partition's 24 GB A5000.
+model_format: x-species
+
+paths:
+  fasta: <PROJECT>/tunaplus/analysis_out/logoppi_train/receptor_f0/proteins.fasta
+  train_csv: <PROJECT>/tunaplus/analysis_out/logoppi_train/receptor_f0/train.csv
+  validation_selection_csv: <PROJECT>/tunaplus/analysis_out/logoppi_train/receptor_f0/validation_selection.csv
+  validation_calibration_csv: <PROJECT>/tunaplus/analysis_out/logoppi_train/receptor_f0/validation_calibration.csv
+
+model:
+  base_model_name: <PROJECT>/ext/weights/esm2_650M_hf
+  projection_dim: 512
+  global_hidden_dim: 512
+  projection_dropout: 0.1
+  classifier_dropout: 0.1
+  max_residues: 800
+  exclude_special_tokens: true
+  global_symmetry: mean_ordered_logits
+  loss_definition: bce_on_mean_ordered_logits
+
+training:
+  batch_size_per_device: 8
+  gradient_accumulation_steps: 12
+  target_effective_batch: 96
+  max_epochs: 10
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  gradient_clip: 1.0
+  pos_weight: 1.0
+  early_stopping_patience: 3
+  seed: 42
+  sampler_seed: 0
+  num_workers: 4
+  pin_memory: true
+  prefetch_factor: 2
+  checkpoint_every_updates: 200
+  save_every_epoch: true
+  gradient_checkpointing: true
+
+postprocess:
+  embedding_batch_size: 16
+  global_batch_size: 4096
+  maxsim_pair_batch_size: 64
+  cache_dtype: float16
+
+runtime:
+  visible_gpus: 0
+  expected_world_size: 1
+  expected_gpu_name: ''
+  requested_precision: bf16
+  allow_fp16_fallback: true
+  attention: eager
+  trust_remote_code: false
+  local_files_only: true
+
+wandb:
+  enabled: false
+  mode: offline
+  project: logoppi
+  group: propedia
+  job_type: propedia-receptor-f0
+  log_every_updates: 50

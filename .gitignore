@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.npz
+*.m8
+*.tsv.gz
+.DS_Store

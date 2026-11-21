@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panppi"
+version = "0.1.0"
+description = "PanPPI (Partner-ranking Alignment Network): ranking-trained protein embeddings for proteome-scale protein-protein interaction screening"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Brayon J. Fremin"}, {name = "Carlotta Ronda"}]
+dependencies = ["torch>=2.1", "transformers>=4.40", "numpy", "pandas"]
+
+[project.scripts]
+panppi-score = "panppi.score:main"
+
+[tool.setuptools]
+packages = ["panppi"]

@@ -1,0 +1,20 @@
+name: panppi
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.12.8
+  - pip
+  - pip:
+      - torch==2.9.0
+      - transformers==5.22.2
+      - tokenizers==0.23.3
+      - safetensors==0.8.0
+      - numpy
+      - pandas
+      - scipy
+      - scikit-learn
+      - pyyaml
+      - matplotlib
+      - networkx
+# Unpinned packages were not recorded in the original environment; pin them before release.
+# MMseqs2 release 15-6f452 is needed for the homology searches (binary, not pip).
+# ProteomeLM scoring needs the `proteomelm` package from its authors; LoGoPPI inference used a separate environment (transformers 4.57.6); PLM-interact used transformers 4.40.1 + sentence-transformers 2.7.0.

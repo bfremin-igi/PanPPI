@@ -1,0 +1,5 @@
+genes,a,b,entry,nch,na,nb,cov_a,cov_b,string,pan_pct,lg_pct,pm_pct,iptm,ipsae,kw
+IL1RL2-IL1RAP,Q9HB29,Q9NPH3,9i7x,3,13,19,0.55,0.609,993.0,97.284,89.654,64.064,0.229,0.01,Hydrolase;Immunity;Receptor
+IL1B-IL1RAP,P01584,Q9NPH3,3o4o,3,16,15,0.569,0.579,999.0,95.803,75.85,42.255,0.22,0.0,Hydrolase;Immunity;Receptor
+CCT3-PDCL3,P49368,Q9H2J4,8i6j,2,26,18,1.0,1.0,959.0,95.562,59.736,39.497,0.336,0.015,Apoptosis;Hydrolase
+PPP2CA-PPP2R5D,P67775,Q14738,8u1x,3,30,45,1.0,1.0,981.0,95.528,71.002,65.191,0.182,0.0,Hydrolase

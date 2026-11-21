@@ -1,0 +1,49 @@
+group,item,precision,lo,hi,called,true
+all five species,afm,0.943,0.9386,0.9467,19151.0,18060.0
+all five species,pan_match,0.907,0.8992,0.9151,19151.0,17369.0
+all five species,pan_top5,0.8307,0.8278,0.834,105091.0,87296.0
+all five species,lg_match,0.737,0.725,0.7521,19151.0,14115.0
+all five species,lg_top5,0.7057,0.7006,0.7154,60473.0,42678.0
+all five species,pan_match_minus_afm,-0.0361,-0.0443,-0.0267,,
+all five species,lg_match_minus_afm,-0.206,-0.2192,-0.1904,,
+all five species,pan_minus_lg_match,0.1699,0.1548,0.1837,,
+soybean,afm,0.9537,0.9462,0.9606,7493.0,7146.0
+soybean,pan_match,0.8946,0.8795,0.9088,7493.0,6703.0
+soybean,pan_top5,0.8242,0.8188,0.8297,42953.0,35401.0
+soybean,lg_match,0.6884,0.6682,0.7113,7493.0,5158.0
+soybean,lg_top5,0.7044,0.6919,0.7195,25549.0,17997.0
+soybean,pan_match_minus_afm,-0.0591,-0.0743,-0.0445,,
+soybean,lg_match_minus_afm,-0.2653,-0.2868,-0.2406,,
+soybean,pan_minus_lg_match,0.2062,0.1791,0.2302,,
+arabidopsis,afm,0.9356,0.9258,0.9436,4439.0,4153.0
+arabidopsis,pan_match,0.9121,0.8975,0.9244,4439.0,4049.0
+arabidopsis,pan_top5,0.824,0.8176,0.8334,19453.0,16030.0
+arabidopsis,lg_match,0.7324,0.7135,0.7619,4439.0,3251.0
+arabidopsis,lg_top5,0.7056,0.6925,0.7205,11626.0,8203.0
+arabidopsis,pan_match_minus_afm,-0.0234,-0.0402,-0.008,,
+arabidopsis,lg_match_minus_afm,-0.2032,-0.2262,-0.1714,,
+arabidopsis,pan_minus_lg_match,0.1798,0.1486,0.1993,,
+rat,afm,0.9251,0.9124,0.9356,3376.0,3123.0
+rat,pan_match,0.9286,0.9169,0.9415,3376.0,3135.0
+rat,pan_top5,0.8404,0.834,0.8475,19715.0,16569.0
+rat,lg_match,0.7897,0.7637,0.814,3376.0,2666.0
+rat,lg_top5,0.7039,0.6894,0.7194,10624.0,7478.0
+rat,pan_match_minus_afm,0.0036,-0.0128,0.0212,,
+rat,lg_match_minus_afm,-0.1354,-0.1612,-0.105,,
+rat,pan_minus_lg_match,0.1389,0.1106,0.1658,,
+rice,afm,0.9371,0.9216,0.9501,2003.0,1877.0
+rice,pan_match,0.8707,0.8446,0.8929,2003.0,1744.0
+rice,pan_top5,0.8109,0.8029,0.8187,13406.0,10871.0
+rice,lg_match,0.7319,0.6909,0.7643,2003.0,1466.0
+rice,lg_top5,0.6833,0.666,0.7071,8005.0,5470.0
+rice,pan_match_minus_afm,-0.0664,-0.0899,-0.0407,,
+rice,lg_match_minus_afm,-0.2052,-0.2479,-0.1677,,
+rice,pan_minus_lg_match,0.1388,0.1003,0.1845,,
+zebrafish,afm,0.9571,0.9434,0.9665,1840.0,1761.0
+zebrafish,pan_match,0.9446,0.9284,0.9576,1840.0,1738.0
+zebrafish,pan_top5,0.8809,0.874,0.8867,9564.0,8425.0
+zebrafish,lg_match,0.8554,0.8256,0.8881,1840.0,1574.0
+zebrafish,lg_top5,0.7561,0.741,0.7746,4669.0,3530.0
+zebrafish,pan_match_minus_afm,-0.0125,-0.0321,0.0037,,
+zebrafish,lg_match_minus_afm,-0.1016,-0.1351,-0.0657,,
+zebrafish,pan_minus_lg_match,0.0891,0.0544,0.1205,,
